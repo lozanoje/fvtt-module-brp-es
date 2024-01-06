@@ -1,0 +1,67 @@
+{
+  "id": "fvtt-module-brp-es",
+  "title": "Translation: Spanish [Basic Role Playing]",
+  "description": "Traducción del sistema Basic Role Playing (github.com/Genii-Locorum/brp) al español -  Basic Role Playing spanish translation",
+  "version": "11.110.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+	  "packFolders": [
+  {
+    "name": "Compendios en español",
+    "sorting": "a",
+    "color": "#b95050",
+    "packs": ["brp-armor-es"]
+  }
+  ],
+  "packs": [
+    {
+      "name": "brp-armor-es",
+      "label": "Armaduras",
+      "system": "brp",
+      "path": "packs/brp-armor-es.db",
+      "type": "Item",
+      "private": false,
+      "flags": {},
+      "package": "fvtt-module-brp-es",
+      "absPath": "packs/brp-armor-es.db"
+    }
+  ],
+  "url": "https://github.com/lozanoje/fvtt-module-brp-es",
+  "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-brp-es/main/module.json",
+  "download": "https://github.com/lozanoje/fvtt-module-brp-es/archive/main.zip",
+  "authors": [
+    {
+      "name": "Viriato139ac",
+      "discord": "@Viriato139ac#0342"
+    }
+  ],
+	  "relationships": {
+	    "systems": [{
+	        "id": "brp",
+	        "type": "system",
+	        "compatibility": "11.1.10"
+	      }
+	    ],
+	    "requires": [{
+	        "id": "foundryvtt-es",
+	        "type": "module",
+	        "compatibility": {}
+	      }
+	    ]
+	  },
+	
+	
+  "esmodules": [
+    "fvtt-module-brp-es.js"
+  ]
+}
